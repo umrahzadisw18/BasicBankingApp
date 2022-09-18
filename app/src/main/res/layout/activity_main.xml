@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#CEE4E2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Banking App"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="381dp"
+        android:layout_marginHorizontal="15dp"
+        android:src="@drawable/bank_logo" />
+
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#1B1A1A"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="Users"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnViewTransaction"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#1B1A1A"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Transactions"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        >
+
+    </Button>
+
+</LinearLayout>
